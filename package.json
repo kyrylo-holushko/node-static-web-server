@@ -1,0 +1,12 @@
+{
+  "name": "node.js-static-web-server",
+  "version": "1.0.0",
+  "description": "Node.js Static Web Server",
+  "license": "ISC",
+  "author": "Kyrylo Holushko",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

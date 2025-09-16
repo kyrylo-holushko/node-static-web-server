@@ -1,0 +1,38 @@
+body {
+    display: flex; /* turn the body into a flex container*/
+    min-height: 100vh; /* make the body as high as the browser viewport */
+    flex-direction: column; /* have the flexbox behave in a columnar fashion (nav -> main-> footer)*/
+}
+nav, .nav-wrapper a {
+    max-height: 56px !important;
+}
+.nav-wrapper ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main {
+    flex-grow: 1; /* main container will vertically grow to fill any free space on the screen*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    min-height: 56px !important;
+}
+.sidenav {
+    padding-top: 10px;
+}
+.sidenav-overlay {
+    backdrop-filter: blur(4px)
+}
+#hamburger {
+    display: flex;
+    height: 56px;
+}
+#hamburger svg {
+    align-self: center;
+}
+nav, #hamburger {
+    line-height: 56px;
+}
